@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify- Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand">
+                <img src="logo.png" alt="Spotify">
+                 Spotify
+            </li>
+            <li>Home</li>
+            <li>About</li>
+
+        </ul>
+    </nav>
+
+    <div class="container">
+       
+        <div class="songlist">
+            <h1> Best Of NCS - No Copyright Sounds </h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+               <img src="covers/1.jpg" alt="1">
+               <span class="songName"> Let Me Love You</span>
+                <span class="songlistplay"><span class="timestamp">05:02  <i id="0" class="far fa-circle-play"></i></span></span>
+        </div>
+
+        <div class="songItem">
+            <img src="covers/2.jpg" alt="1">
+            <span class="songName"> Hold On</span>
+             <span class="songlistplay"><span class="timestamp">04:07 <i id="1"  class="far songItemPlay fa-circle-play"></i></span></span>
+     </div>
+     <div class="songItem">
+        <img src="covers/3.jpg" alt="1">
+        <span class="songName"> I'm Not Afraid</span>
+         <span class="songlistplay"><span class="timestamp">03:57  <i id="2" class="far songItemPlay fa-circle-play"></i></span></span>
+ </div>
+ <div class="songItem">
+    <img src="covers/4.jpg" alt="1">
+    <span class="songName"> No Surprises</span>
+     <span class="songlistplay"><span class="timestamp">04:44  <i  id="3" class="far songItemPlay fa-circle-play"></i></span></span>
+</div>
+<div class="songItem">
+    <img src="covers/5.jpg" alt="1">
+    <span class="songName"> Welcome To The Black Parade</span>
+     <span class="songlistplay"><span class="timestamp">03:02  <i  id="4" class="far songItemPlay fa-circle-play"></i></span></span>
+</div>
+<div class="songItem">
+    <img src="covers/6.jpg" alt="1">
+    <span class="songName"> Bohemian Rhapsody</span>
+     <span class="songlistplay"><span class="timestamp">04:20  <i id="7"  class="far songItemPlay fa-circle-play"></i></span></span>
+</div>
+<div class="songItem">
+    <img src="covers/7.jpg" alt="1">
+    <span class="songName"> Someone You Loved</span>
+     <span class="songlistplay"><span class="timestamp">06:01  <i id="6" class="far songItemPlay fa-circle-play"></i></span></span>
+</div>
+<div class="songItem">
+    <img src="covers/8.jpg" alt="1">
+    <span class="songName">All You Need Is Love</span>
+     <span class="songlistplay"><span class="timestamp">04:45  <i id="7" class="far songItemPlay fa-circle-play"></i></span></span>
+</div>
+<div class="songItem">
+    <img src="covers/9.jpg" alt="1">
+    <span class="songName">All You Need Is Love</span>
+     <span class="songlistplay"><span class="timestamp">04:45  <i id="8" class="far songItemPlay fa-circle-play"></i></span></span>
+</div>
+<div class="songItem">
+    <img src="covers/10.jpg" alt="1">
+    <span class="songName">All You Need Is Love</span>
+     <span class="songlistplay"><span class="timestamp">04:45  <i id="9" class="far songItemPlay fa-circle-play"></i></span></span>
+</div>
+</div>
+  
+    </div>
+       
+</div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+        <div class="icons">
+          <span><i class="fa fa-2x fa-shuffle"></i></span>  
+          <span>  <i class="fa fa-2x fa-backward-step" id="previous"></i></span>
+          <span class="playbutton"> <i class="fa fa-3x fa-circle-play" id="masterPlay"></i></span> 
+           <span><i class="fa fa-2x fa-forward-step" id="next"></i></span> 
+           <span> <i class="fa fa-2x fa-repeat"></i>
+           </span>
+        </div>
+
+        <div class="songInfo">
+            <img src="playing.gif"  width= "42px" alt="" id="gif"><span id="masterSongName">Let Me Love You</span>
+        </div>
+    </div>
+
+
+<script src="https://kit.fontawesome.com/06695bb9fc.js" crossorigin="anonymous"></script>   
+
+<script src="script.js"></script>
+    
+</body>
+</html>
